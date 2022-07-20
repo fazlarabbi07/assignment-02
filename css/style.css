@@ -9,7 +9,8 @@ body {
 /* HEADER STYLE START  */
 .header-container {
     display: flex;
-    background-color: #161616;;
+    background-color: #161616;
+    ;
     width: 1321px;
     margin: 0 auto;
 }
@@ -17,8 +18,9 @@ body {
 .header-left,
 .header-right {
     width: 50%;
-    
+
 }
+
 .left-panel {
     width: 531px;
     height: 424px;
@@ -28,7 +30,7 @@ body {
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    }
+}
 
 #white-color {
     color: #ffff;
@@ -56,94 +58,125 @@ body {
     border-radius: 4px;
 }
 
-.fa-solid {
+.fa-light {
     padding-left: 15px;
 }
 
 .player-image {
-    
+
     width: 581px;
     height: 613px;
 }
 
 .player-image img {
     height: 100%;
-    
+
 }
+
 /* HEADER STYLE END  */
 
+/* BODY STYLE START  */
+.body-left-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 312px;
+    height: 312px;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 
 
+
+/* BODY STYLE END  */
 
 
 
 
 /* FOOTER STYLE START  */
-.footer-container{
+.footer-container {
     width: 100%;
     border: 2px solid salmon;
     background: #161616;
     padding: 50px;
-    
+
 }
-.footer-title h1{
+
+.footer-title h1 {
     text-align: center;
     color: white;
 }
-hr{
+
+hr {
     width: 50%;
 }
-.footer-lists{
+
+.footer-lists {
     width: 50%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
 
     /* justify-content: space-evenly; */
     /* border: 5px solid red; */
 }
-.list a{
+
+.list a {
     text-decoration: none;
     color: #B9B9B9;
     font-size: 14px;
 
 }
-.social-container{
+
+.social-container {
     width: 50%;
     margin: 0 auto;
     /* border: 5px solid blue; */
 }
-.social-container h3{
+
+.social-container h3 {
     text-align: center;
     color: #B9B9B9;
     font-weight: 500;
-    
+
 }
-.social-list{
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-    /* border: 2px solid white; */
+
+.social-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
     width: 50%;
     margin: 0 auto;
     padding: 20px;
 }
-.social a{
+
+.social a {
     text-decoration: none;
 }
-.fa-brands{
+
+.fa-brands {
     font-size: 25px;
     margin-left: 50px;
 }
-.fa-facebook-square{
+
+.fa-facebook-square {
     color: #4267B2
 }
-.fa-twitter-square{
+
+.fa-twitter-square {
     color: #1DA1F2
 }
-.fa-linkedin{
+
+.fa-linkedin {
     color: #3f729b;
+}
+
+.fa-brands:hover {
+
+    box-shadow: 2px 2px 2px 1px lightgray;
 }
 
 
