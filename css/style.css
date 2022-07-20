@@ -81,7 +81,21 @@ body {
 
 
 /* FOOTER STYLE START  */
+.footer-container{
+    width: 100%;
+}
+.footer-lists{
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
 
+    justify-content: center;
+    border: 5px solid red;
+}
+.list a{
+    text-decoration: none;
+}
 
 
 /* FOOTER STYLE END */
