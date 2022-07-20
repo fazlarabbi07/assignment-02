@@ -6,15 +6,12 @@ body {
     background-color: rgb(124, 123, 123);
 }
 
-
-
 /* HEADER STYLE START  */
 .header-container {
     display: flex;
     background-color: #161616;;
     width: 1321px;
     margin: 0 auto;
-
 }
 
 .header-left,
@@ -22,8 +19,6 @@ body {
     width: 50%;
     
 }
-
-
 .left-panel {
     width: 531px;
     height: 424px;
@@ -33,9 +28,7 @@ body {
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    
-
-}
+    }
 
 #white-color {
     color: #ffff;
@@ -47,7 +40,6 @@ body {
     line-height: 80px;
     margin-top: 0;
     margin-bottom: 10px;
-
 }
 
 .header-description p {
@@ -72,12 +64,24 @@ body {
     
     width: 581px;
     height: 613px;
-
-   
-
 }
 
 .player-image img {
     height: 100%;
     
 }
+/* HEADER STYLE END  */
+
+
+
+
+
+
+
+
+
+/* FOOTER STYLE START  */
+
+
+
+/* FOOTER STYLE END */
