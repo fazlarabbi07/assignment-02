@@ -3,7 +3,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(124, 123, 123);
+    background-color: #ffff
+}
+main{
+    margin: 30px 0 30px 0;
 }
 
 /* HEADER STYLE START  */
@@ -49,7 +52,7 @@ body {
     line-height: 26px;
 }
 
-.watch-live-btn {
+.btn .watch-live-btn {
     background-color: red;
     color: #ffff;
     padding: 16px 25px;
@@ -78,7 +81,7 @@ body {
 .body-section {
     width: 1321px;
     margin: 0 auto;
-    border: 2px solid green;
+   
     display: flex;
 
 }
@@ -88,6 +91,7 @@ body {
     background: #161616;
     max-height: 400px;
     margin: 10px;
+
 }
 
 
@@ -102,6 +106,7 @@ body {
     height: 312px;
     justify-content: center;
     align-items: center;
+    
 
 }
 
@@ -131,29 +136,50 @@ body {
 
 }
 
-.body-right {
-    min-width: calc(100%-400px);
-    border: 2px solid red;
-    background-color: pink;
-    margin: 10px;
+/* right style start here  */
+.body-right{
+    width: 100%;
+    margin: 5px;
+    
+}
+.body-right-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
 }
 
-.body-right-container {
-    border: 3px solid greenyellow;
-    width: 312px;
-    height: 362px;
+.body-right-section {
+    border: 1px solid #1E1E1E;;
+    width: 250px;
+    height: 300px;
+}
+.body-right-section img{
+    width: 100%;
+}
+
+.btn-title-hour-time-container{
+    padding-left: 10px;
+}
+.transfer-btn{
+    width: 100px;
+    height: 32px;
+    
+}
+.transfer-btn button{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   font-size: 14px;
+   font-weight: 700; 
 }
 .time-comments-container{
     display: flex;
-    border: 2px solid red;
-    justify-content: left;
-
     
 }
-.fa-regular{
-   margin-right: 30px;
+.fa-regular {
+    margin-right: 50px;
 }
-
 
 
 
