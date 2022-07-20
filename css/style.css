@@ -84,6 +84,9 @@ body {
 .footer-container{
     width: 100%;
     border: 2px solid salmon;
+    background: #161616;
+    padding: 50px;
+    
 }
 .footer-title h1{
     text-align: center;
@@ -103,9 +106,44 @@ hr{
 }
 .list a{
     text-decoration: none;
-    color: white;
+    color: #B9B9B9;
     font-size: 14px;
 
+}
+.social-container{
+    width: 50%;
+    margin: 0 auto;
+    /* border: 5px solid blue; */
+}
+.social-container h3{
+    text-align: center;
+    color: #B9B9B9;
+    font-weight: 500;
+    
+}
+.social-list{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+    /* border: 2px solid white; */
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.social a{
+    text-decoration: none;
+}
+.fa-brands{
+    font-size: 25px;
+    margin-left: 50px;
+}
+.fa-facebook-square{
+    color: #4267B2
+}
+.fa-twitter-square{
+    color: #1DA1F2
+}
+.fa-linkedin{
+    color: #3f729b;
 }
 
 
