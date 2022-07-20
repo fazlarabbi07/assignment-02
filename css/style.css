@@ -1,0 +1,83 @@
+/* Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(124, 123, 123);
+}
+
+
+
+/* HEADER STYLE START  */
+.header-container {
+    display: flex;
+    background-color: #161616;;
+    width: 1321px;
+    margin: 0 auto;
+
+}
+
+.header-left,
+.header-right {
+    width: 50%;
+    
+}
+
+
+.left-panel {
+    width: 531px;
+    height: 424px;
+    left: 246px;
+    top: 161px;
+    margin: 100px 10px 0 40px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+
+}
+
+#white-color {
+    color: #ffff;
+}
+
+.header-title h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+.header-description p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.watch-live-btn {
+    background-color: red;
+    color: #ffff;
+    padding: 16px 25px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.fa-solid {
+    padding-left: 15px;
+}
+
+.player-image {
+    
+    width: 581px;
+    height: 613px;
+
+   
+
+}
+
+.player-image img {
+    height: 100%;
+    
+}
