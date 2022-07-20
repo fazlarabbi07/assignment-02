@@ -10,7 +10,6 @@ body {
 .header-container {
     display: flex;
     background-color: #161616;
-    ;
     width: 1321px;
     margin: 0 auto;
 }
@@ -76,15 +75,83 @@ body {
 /* HEADER STYLE END  */
 
 /* BODY STYLE START  */
+.body-section {
+    width: 1321px;
+    margin: 0 auto;
+    border: 2px solid green;
+    display: flex;
+
+}
+
+.body-left {
+    min-width: 400px;
+    background: #161616;
+    max-height: 400px;
+    margin: 10px;
+}
+
+
+
 .body-left-container {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    width: 50%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
     width: 312px;
     height: 312px;
     justify-content: center;
     align-items: center;
+
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 10px;
+
+}
+
+#btn-blog button {
+    background-color: red;
+}
+
+.btn button {
+    /* border: 2px solid red; */
+    width: 252px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.body-right {
+    min-width: calc(100%-400px);
+    border: 2px solid red;
+    background-color: pink;
+    margin: 10px;
+}
+
+.body-right-container {
+    border: 3px solid greenyellow;
+    width: 312px;
+    height: 362px;
+}
+.time-comments-container{
+    display: flex;
+    border: 2px solid red;
+    justify-content: left;
+
     
+}
+.fa-regular{
+   margin-right: 30px;
 }
 
 
