@@ -150,7 +150,7 @@ main{
 }
 
 .body-right-section {
-    border: 1px solid #1E1E1E;;
+    box-shadow:0 0 10px 2px #1E1E1E;
     width: 250px;
     height: 300px;
 }
@@ -192,7 +192,6 @@ main{
 /* FOOTER STYLE START  */
 .footer-container {
     width: 100%;
-    border: 2px solid salmon;
     background: #161616;
     padding: 50px;
 
@@ -269,7 +268,7 @@ hr {
 
 .fa-brands:hover {
 
-    box-shadow: 2px 2px 2px 1px lightgray;
+    box-shadow: 0px 0px 10px 10px  #1E1E1E;
 }
 
 
