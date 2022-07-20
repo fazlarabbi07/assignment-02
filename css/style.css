@@ -13,9 +13,49 @@ main {
 /* HEADER STYLE START  */
 .header-container {
     display: flex;
+
     background-color: #161616;
     width: 1321px;
     margin: 0 auto;
+}
+
+/* ANIMATION  */
+.ball img {
+    width: 100px;
+    position: relative;
+    /* border: 1px solid red; */
+    animation: ball-sliding 5s linear 0.5s infinite alternate;
+    animation-play-state: running;
+}
+
+.ball img {
+    /* width: 100px;   */
+}
+
+@keyframes ball-sliding {
+
+    /* from {
+        left: 0;
+    }
+
+    to {
+        left: 1240px;
+    } */
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    50% {
+        left: 600px;
+        top: 500px;
+        transform: scale(3);
+    }
+
+    100% {
+        left: 1200px;
+        top: 0;
+    }
 }
 
 .header-left,
@@ -292,23 +332,24 @@ hr {
     width: 100%;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-   
+    grid-template-columns: repeat(3, 1fr);
+
 }
 
 .match-body-right {
 
-    
+
     width: 230px;
     height: 135px;
     padding: 5px;
     margin-top: 20px;
     margin-left: 20px;
-    box-shadow: 0 0 10px 1px #1E1E1E;;
+    box-shadow: 0 0 10px 1px #1E1E1E;
+    ;
 }
 
 .flags-container {
-    
+
     padding: 10px;
 
 }
@@ -317,13 +358,15 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
-.flag img{
+
+.flag img {
     margin: 0 10px 0 10px;
 }
-.match-title-time{
+
+.match-title-time {
     display: flex;
     /* width: 100%;
     height: 100%; */
@@ -331,13 +374,17 @@ hr {
     justify-content: center;
     align-items: center;
 }
-.match-title h3{
+
+.match-title h3 {
     font-weight: 700;
     font-size: 15px;
-    
+
     margin: 0;
 }
-.match-time p{
+
+.match-time p {
     margin: 0;
     font-size: 12px;
 }
+
+/* MATCH SCHEDULE STYLE END  */
