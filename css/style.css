@@ -83,6 +83,14 @@ body {
 /* FOOTER STYLE START  */
 .footer-container{
     width: 100%;
+    border: 2px solid salmon;
+}
+.footer-title h1{
+    text-align: center;
+    color: white;
+}
+hr{
+    width: 50%;
 }
 .footer-lists{
     width: 50%;
@@ -90,11 +98,14 @@ body {
     display: grid;
     grid-template-columns: repeat(6,1fr);
 
-    justify-content: center;
-    border: 5px solid red;
+    /* justify-content: space-evenly; */
+    /* border: 5px solid red; */
 }
 .list a{
     text-decoration: none;
+    color: white;
+    font-size: 14px;
+
 }
 
 
